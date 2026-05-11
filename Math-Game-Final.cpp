@@ -34,7 +34,7 @@ short readNumberOfQuestions()
 {
     short number=0;
     do{
-          cout<<"How many Questions do you want to aswers?1 to 10? ";
+          cout<<"How many Questions do you want to answer?1 to 10? ";
           cin>>number;
       }while(number<1 || number>10);
     return number;
